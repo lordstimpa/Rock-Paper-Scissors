@@ -1,0 +1,44 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+}
+
+div {
+  margin: auto;
+  margin-top: 10px;
+  max-width: 750px;
+  min-width: 50%;
+  padding: 20px 10px 20px 10px;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+#display {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 250px;
+}
+
+.options {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.options img {
+  max-width: 20%;
+}
+.display img {
+  max-width: 40%;
+  padding: 0 5%;
+}
+
+.options img:hover {
+  cursor: pointer;
+}
